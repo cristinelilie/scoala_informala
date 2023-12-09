@@ -15,4 +15,4 @@ print(lista[::2])
 print(lista[1::2])
 
 #elemente multipli de 3
-print(lista[::3])
+print([x for x in lista if x%3 ==0])
